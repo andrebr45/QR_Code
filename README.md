@@ -1,5 +1,6 @@
 # QR_Code
- Gerador de QR Code
+ Sistema Gerador de QR Code
+ 
  Atenção
  olhar as funções M e alterar o local de buscar a imagem
  a primeira é na linha 68
