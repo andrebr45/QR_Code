@@ -21,19 +21,10 @@ def abrir_menu():
    if sum(valor_menu) == 1 :
        barra_menu.place_forget()
        #-----------------------------------------------
-       #Mexe na resposividade da tela
-       #l_clie_tema.place_forget()
-       #l_clie_tema.place(x=10,y=14)
-       #-----------------------------------------------
        valor_menu[0] = 2
 
    elif sum(valor_menu) == 2:
        barra_menu.place(y=82,height=390,width=200)
-       #Mexe na resposividade da tela
-       #-----------------------------------------------
-       #l_clie_tema.place_forget()
-       #l_clie_tema.place(x=260,y=14)
-       #-----------------------------------------------
        valor_menu[0] = 1
    #-----------------------------------------------
 #FUNCAO QUE GERA O QRCODE -PRINCIPAL
@@ -63,11 +54,19 @@ def qr(event=None):
        if(os.path.exists('qrcode.png')):
           print("O arquivo existe")
           image.save(f"qrcode{sum(cont)}.png")
+
+          #ATENÇÃO, ALTERAR O NOME DE USUARIO PARA NÃO DAR ERRO
           ba = (f'C:/Users/Luciano/Desktop/qrcode{sum(cont)}.png')
+          #ATENÇÃO, ALTERAR O NOME DE USUARIO PARA NÃO DAR ERRO
+
        else:
           print("O arquivo não existe")
           image.save("qrcode.png")
+
+          #ATENÇÃO, ALTERAR O NOME DE USUARIO PARA NÃO DAR ERRO
           ba = ('C:/Users/Luciano/Desktop/qrcode.png')
+          #ATENÇÃO, ALTERAR O NOME DE USUARIO PARA NÃO DAR ERRO
+
        #CONTA O NUMERO DE ARQUVIOS CRIADOS   
        cont.append(1)
        print(cont)
@@ -112,11 +111,19 @@ def m1():
        if(os.path.exists('qrcode.png')):
           print("O arquivo existe")
           image.save(f"qrcode{sum(cont)}.png")
+
+          #ATENÇÃO, ALTERAR O NOME DE USUARIO PARA NÃO DAR ERRO
           ba = (f'C:/Users/Luciano/Desktop/qrcode{sum(cont)}.png')
+          #ATENÇÃO, ALTERAR O NOME DE USUARIO PARA NÃO DAR ERRO
+
        else:
           print("O arquivo não existe")
           image.save("qrcode.png")
+
+          #ATENÇÃO, ALTERAR O NOME DE USUARIO PARA NÃO DAR ERRO
           ba = ('C:/Users/Luciano/Desktop/qrcode.png')
+          #ATENÇÃO, ALTERAR O NOME DE USUARIO PARA NÃO DAR ERRO
+
        #CONTA O NUMERO DE ARQUVIOS CRIADOS   
        cont.append(1)
        print(cont)
@@ -163,11 +170,19 @@ def m2():
        if(os.path.exists('qrcode.png')):
           print("O arquivo existe")
           image.save(f"qrcode{sum(cont)}.png")
+
+          #ATENÇÃO, ALTERAR O NOME DE USUARIO PARA NÃO DAR ERRO
           ba = (f'C:/Users/Luciano/Desktop/qrcode{sum(cont)}.png')
+          #ATENÇÃO, ALTERAR O NOME DE USUARIO PARA NÃO DAR ERRO
+
        else:
           print("O arquivo não existe")
           image.save("qrcode.png")
+
+          #ATENÇÃO, ALTERAR O NOME DE USUARIO PARA NÃO DAR ERRO
           ba = ('C:/Users/Luciano/Desktop/qrcode.png')
+          #ATENÇÃO, ALTERAR O NOME DE USUARIO PARA NÃO DAR ERRO
+
        #CONTA O NUMERO DE ARQUVIOS CRIADOS   
        cont.append(1)
        print(cont)
@@ -214,11 +229,19 @@ def m3():
        if(os.path.exists('qrcode.png')):
           print("O arquivo existe")
           image.save(f"qrcode{sum(cont)}.png")
+
+          #ATENÇÃO, ALTERAR O NOME DE USUARIO PARA NÃO DAR ERRO
           ba = (f'C:/Users/Luciano/Desktop/qrcode{sum(cont)}.png')
+          #ATENÇÃO, ALTERAR O NOME DE USUARIO PARA NÃO DAR ERRO
+
        else:
           print("O arquivo não existe")
           image.save("qrcode.png")
+
+          #ATENÇÃO, ALTERAR O NOME DE USUARIO PARA NÃO DAR ERRO
           ba = ('C:/Users/Luciano/Desktop/qrcode.png')
+          #ATENÇÃO, ALTERAR O NOME DE USUARIO PARA NÃO DAR ERRO
+
        #CONTA O NUMERO DE ARQUVIOS CRIADOS   
        cont.append(1)
        print(cont)
@@ -265,11 +288,19 @@ def m4():
        if(os.path.exists('qrcode.png')):
           print("O arquivo existe")
           image.save(f"qrcode{sum(cont)}.png")
+
+          #ATENÇÃO, ALTERAR O NOME DE USUARIO PARA NÃO DAR ERRO
           ba = (f'C:/Users/Luciano/Desktop/qrcode{sum(cont)}.png')
+          #ATENÇÃO, ALTERAR O NOME DE USUARIO PARA NÃO DAR ERRO
+
        else:
           print("O arquivo não existe")
           image.save("qrcode.png")
+
+          #ATENÇÃO, ALTERAR O NOME DE USUARIO PARA NÃO DAR ERRO
           ba = ('C:/Users/Luciano/Desktop/qrcode.png')
+          #ATENÇÃO, ALTERAR O NOME DE USUARIO PARA NÃO DAR ERRO
+
        #CONTA O NUMERO DE ARQUVIOS CRIADOS   
        cont.append(1)
        print(cont)
@@ -316,11 +347,19 @@ def m5():
        if(os.path.exists('qrcode.png')):
           print("O arquivo existe")
           image.save(f"qrcode{sum(cont)}.png")
+
+          #ATENÇÃO, ALTERAR O NOME DE USUARIO PARA NÃO DAR ERRO
           ba = (f'C:/Users/Luciano/Desktop/qrcode{sum(cont)}.png')
+          #ATENÇÃO, ALTERAR O NOME DE USUARIO PARA NÃO DAR ERRO
+
        else:
           print("O arquivo não existe")
           image.save("qrcode.png")
+
+          #ATENÇÃO, ALTERAR O NOME DE USUARIO PARA NÃO DAR ERRO
           ba = ('C:/Users/Luciano/Desktop/qrcode.png')
+          #ATENÇÃO, ALTERAR O NOME DE USUARIO PARA NÃO DAR ERRO
+
        #CONTA O NUMERO DE ARQUVIOS CRIADOS   
        cont.append(1)
        print(cont)
@@ -367,11 +406,19 @@ def m6():
        if(os.path.exists('qrcode.png')):
           print("O arquivo existe")
           image.save(f"qrcode{sum(cont)}.png")
+
+          #ATENÇÃO, ALTERAR O NOME DE USUARIO PARA NÃO DAR ERRO
           ba = (f'C:/Users/Luciano/Desktop/qrcode{sum(cont)}.png')
+          #ATENÇÃO, ALTERAR O NOME DE USUARIO PARA NÃO DAR ERRO
+
        else:
           print("O arquivo não existe")
           image.save("qrcode.png")
+
+          #ATENÇÃO, ALTERAR O NOME DE USUARIO PARA NÃO DAR ERRO
           ba = ('C:/Users/Luciano/Desktop/qrcode.png')
+          #ATENÇÃO, ALTERAR O NOME DE USUARIO PARA NÃO DAR ERRO
+
        #CONTA O NUMERO DE ARQUVIOS CRIADOS   
        cont.append(1)
        print(cont)
@@ -418,11 +465,19 @@ def m7():
        if(os.path.exists('qrcode.png')):
           print("O arquivo existe")
           image.save(f"qrcode{sum(cont)}.png")
+
+          #ATENÇÃO, ALTERAR O NOME DE USUARIO PARA NÃO DAR ERRO
           ba = (f'C:/Users/Luciano/Desktop/qrcode{sum(cont)}.png')
+          #ATENÇÃO, ALTERAR O NOME DE USUARIO PARA NÃO DAR ERRO
+
        else:
           print("O arquivo não existe")
           image.save("qrcode.png")
+
+          #ATENÇÃO, ALTERAR O NOME DE USUARIO PARA NÃO DAR ERRO
           ba = ('C:/Users/Luciano/Desktop/qrcode.png')
+          #ATENÇÃO, ALTERAR O NOME DE USUARIO PARA NÃO DAR ERRO
+
        #CONTA O NUMERO DE ARQUVIOS CRIADOS   
        cont.append(1)
        print(cont)
@@ -469,11 +524,19 @@ def m8():
        if(os.path.exists('qrcode.png')):
           print("O arquivo existe")
           image.save(f"qrcode{sum(cont)}.png")
+
+          #ATENÇÃO, ALTERAR O NOME DE USUARIO PARA NÃO DAR ERRO
           ba = (f'C:/Users/Luciano/Desktop/qrcode{sum(cont)}.png')
+          #ATENÇÃO, ALTERAR O NOME DE USUARIO PARA NÃO DAR ERRO
+
        else:
           print("O arquivo não existe")
           image.save("qrcode.png")
+
+          #ATENÇÃO, ALTERAR O NOME DE USUARIO PARA NÃO DAR ERRO
           ba = ('C:/Users/Luciano/Desktop/qrcode.png')
+          #ATENÇÃO, ALTERAR O NOME DE USUARIO PARA NÃO DAR ERRO
+          
        #CONTA O NUMERO DE ARQUVIOS CRIADOS   
        cont.append(1)
        print(cont)
