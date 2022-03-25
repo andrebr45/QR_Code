@@ -5,7 +5,6 @@
 </div>
 
 <div align="center">
-  <div align="center">
   <a href="https://www.youtube.com/watch?v=zgDgck16w80&t=47s">
   <img src="https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_1%2Ch_451%2Cw_516&url=https%3A%2F%2Fpadlet-uploads.storage.googleapis.com%2F1285543771%2F6468fd4e06274cce85e7863bf4eed61f%2Fgithub3.png"/>
    <br>
