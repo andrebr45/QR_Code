@@ -14,8 +14,8 @@
 # Sistema Gerador de QR Code
 Agora mais Completo e Moderno
 e que ajude a todos, aproveitem!
-</div>
-<div align="center">
+
+
 ----------------------------
 ATENÇÃO - PASSOS
 ----------------------------  
