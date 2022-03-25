@@ -26,7 +26,7 @@ ATENÇÃO - PASSOS
   <h3>1° - Baixe a Pasta ZIP </h3>
   <h2>Baixar Aqui </a></h2>
 </div>
-  
+<div align="center">
 <h3>2° - Descompacte o ZIP </h3>
 
 <h3>3° - Crie um Ambiente Virtual </h3>
