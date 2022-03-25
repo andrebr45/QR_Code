@@ -10,6 +10,12 @@
   <img src="https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_1%2Ch_451%2Cw_516&url=https%3A%2F%2Fpadlet-uploads.storage.googleapis.com%2F1285543771%2F6468fd4e06274cce85e7863bf4eed61f%2Fgithub3.png"/>
    <br>
 </div>
+
+<div align="center">
+# Sistema Gerador de QR Code
+Agora mais Completo e Moderno
+e que ajude a todos, aproveitem!
+</div>
    
 # QR_Code
  Sistema Gerador de QR Code
