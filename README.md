@@ -27,22 +27,15 @@ ATENÇÃO - PASSOS
 </div>
 <div align="center">
 <h3>2° - Descompacte o ZIP </h3>
-
-<h3>3° - Crie um Ambiente Virtual </h3>
-<p>Cria um Ambiente Virtual: python -m venv venv</p>
-
-<h3>4° - Mova os arquivos descompactados para o Ambiente Virtual </h3>
-  
-<h3>5° - Instale as seguintes Bibliotecas </h3>
+<h3>3º - Entre na Pasta do Projeto<h3>
+<h3>4° - Crie um Ambiente Virtual </h3>
+<p>Criar um Ambiente Virtual: python -m venv venv</p>
+<h3>5º - Ative ele venv/Scripts/activate <h3>
+<h3>6º - Volte para raiz do projeto <h3>  
+<h3>7° - Instale as Dependências </h3>
     
+pip install -r requirements.txt
 
-BIBLIOTECAS:
----------------------
-    
-<h3> pip install pillow </h3>
-<h3> pip install qrcode </h3>
-<h3> pip install pandas </h3>
- 
 ---------------------------
 CONTRIBUA COM O MEU TRABALHO
 ME SEGUINDO E DIVULGANDO!
